@@ -1,4 +1,4 @@
-function distributeTasks(totalTasks, totalWorkers) {
+const  distributeTasks = (totalTasks, totalWorkers)=> {
     const tasksPerWorker = Math.floor(totalTasks / totalWorkers);
     const remainingTasks = totalTasks % totalWorkers;
   
@@ -11,3 +11,4 @@ function distributeTasks(totalTasks, totalWorkers) {
     return assignments;
   }
   
+  module.exports = distributeTasks
