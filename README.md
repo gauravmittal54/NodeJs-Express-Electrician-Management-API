@@ -12,7 +12,6 @@ This project is a Node.js Express API for managing electricians and their assign
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
