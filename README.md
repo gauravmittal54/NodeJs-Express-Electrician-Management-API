@@ -55,9 +55,9 @@ Make sure you have the following installed:
 The API should now be running on http://localhost:8000.
 
 ### API Endpoints
-POST /api/v1/electricians: Create a new electrician.
-POST /api/v1/sites: Create a new site.
-POST /api/v1/electricians/assign-sites: Assign available sites to active electricians.
+- POST /api/v1/electricians: Create a new electrician.
+- POST /api/v1/sites: Create a new site.
+- PATCH /api/v1/electricians/assign-sites: Assign available sites to active electricians.
 
 ### Contributing
 If you'd like to contribute to the project, feel free to fork the repository and submit a pull request. Bug reports, feature requests, and suggestions are also welcome.
