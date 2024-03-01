@@ -56,8 +56,14 @@ The API should now be running on http://localhost:8000.
 
 ### API Endpoints
 - POST /api/v1/electricians: Create a new electrician.
+- ![image](https://github.com/gauravmittal54/NodeJs-Express-Electrician-Management-API/assets/61792468/f524ab4d-70b4-48d4-a8cd-8f3399734de9)
+
 - POST /api/v1/sites: Create a new site.
-- PATCH /api/v1/electricians/assign-sites: Assign available sites to active electricians.
+- ![image](https://github.com/gauravmittal54/NodeJs-Express-Electrician-Management-API/assets/61792468/5a5ec909-c7f7-4d82-93b1-bcf3313d32f8)
+
+- PATCH /api/v1/electricians/assign: Assign available sites to active electricians.
+- ![image](https://github.com/gauravmittal54/NodeJs-Express-Electrician-Management-API/assets/61792468/a7f85685-e597-4805-bb8f-6c6decf07505)
+
 
 ### Contributing
 If you'd like to contribute to the project, feel free to fork the repository and submit a pull request. Bug reports, feature requests, and suggestions are also welcome.
