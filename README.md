@@ -42,13 +42,13 @@ Make sure you have the following installed:
    cd NodeJs-Express-Electrician-Management-API
    npm install
 
-3. Configuration
-   3.1. Create a .env file in the root directory and set the following environment variables:
+### Configuration
+- Create a .env file in the root directory and set the following environment variables:
    ```bash
    PORT=8000
    MONGO_URL=your_mongo_db_connection_string
 
-   3.2. Start the server:
+- Start the server:
    ```bash
    npm start
 
